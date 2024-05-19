@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32EB69F2-249A-A43F-2D28-C1720B72A976}</ProjectGuid>
+    <ProjectGuid>{D37A7A71-D093-A5DE-27AD-E0CF9314C20D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,10 +60,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RotatingObject.cs" />
-    <Compile Include="Assets\LookAtMovingObject.cs" />
-    <Compile Include="Assets\MovingObject.cs" />
-    <Compile Include="Assets\ChangingScaleObject.cs" />
+    <Compile Include="Assets\Scripts\LookAtMovingObject.cs" />
+    <Compile Include="Assets\Scripts\ChangingScaleObject.cs" />
+    <Compile Include="Assets\Scripts\RotatingObject.cs" />
+    <Compile Include="Assets\Scripts\MovingObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -11,8 +11,8 @@ public class ChangingScaleObject : MonoBehaviour
 
     private void Grow()
     {
-        float step = 2;
-        Vector3 targetScale = transform.localScale * 2;
+        float scaleFactor = 2;
+        Vector3 targetScale = transform.localScale * scaleFactor;
 
         transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * _speed);
     }

@@ -352,10 +352,10 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/ChangingScaleObject.cs"
-"Assets/LookAtMovingObject.cs"
-"Assets/MovingObject.cs"
-"Assets/RotatingObject.cs"
+"Assets/Scripts/ChangingScaleObject.cs"
+"Assets/Scripts/LookAtMovingObject.cs"
+"Assets/Scripts/MovingObject.cs"
+"Assets/Scripts/RotatingObject.cs"
 -langversion:9.0
 /deterministic
 /optimize-
